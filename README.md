@@ -1,4 +1,4 @@
-# Make_Linux_Good
+# Make_Linux_Great_Again
 A bunch of things to change to make (Debian based) Linux work the way I like
 
 Some things are easy to script but others seem to break things, so I keep this file around as a refrence and add to it as I go
