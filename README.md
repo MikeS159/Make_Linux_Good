@@ -60,6 +60,11 @@ Add these lines to .inputrc to allow keyboard shortcut for moving a word at a ti
 
 `"\e[1;5D": backward-word  # ctrl + left`
 
+Change a keyboard shortcut so Alt+Tab cycles through all windows, not groups
+
+`Open Settings > Devices > Keyboard > Navigation > Switch Windows > Alt+Tab > Done!`
+
+
 ## Useful Apps
 
 A section to contain all the useful shell extensions and core apps that Make Linux Great Again
