@@ -9,9 +9,9 @@ Changing keyboard layout to UK QWERTY
 
 `sudo setxkbmap gb`
 
-Add this line to the end of /etc/sudoers (replace "USER" with "your_user_name")
+Add this line to the end of /etc/sudoers (replace "$USER" with "your_user_name")
 
-`$USER' ALL=(ALL) NOPASSWD:ALL`
+"$USER" ALL=(ALL) NOPASSWD:ALL`
 
 
 Get everything up to date and make sure security fixes get done automatically
