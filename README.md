@@ -35,23 +35,34 @@ Make a strong key for SSHing
 `ssh-keygen -t ed25519`
 
 
-This works for Mint and Ubuntu
+Install useful Stuff
 
 `sudo apt install numlockx -y`
-
-
-Install screen because it's really useful
-
+`sudo apt install xrdp`
 `sudo apt install screen`
+`sudo apt install git`
+
+`sudo snap install --classic code`
+`sudo snap install insomnia`
+`sudo snap install gitkraken --classic`
+`sudo snap install nmap`
+
+`sudo apt install dconf-editor`
+`sudo apt install gnome-shell-extension-arc-menu`
+`sudo apt install gnome-shell-extension-dash-to-panel`
+`sudo apt install gnome-shell-extension-pixelsaver`
+
 
 Add this function to .bashrc
 You can set terminal titles with 'set-title whatever'
 
-`set-title(){
-  ORIG=$PS1
-  TITLE="\e]2;$@\a"
+```function set-title() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$*\a\]"
   PS1=${ORIG}${TITLE}
-}`
+}```
 
 
 Add these lines to .inputrc to allow keyboard shortcut for moving a word at a time
