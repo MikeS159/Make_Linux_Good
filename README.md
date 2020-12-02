@@ -1,5 +1,5 @@
-# Make_Linux_Great_Again
-A bunch of things to change to make (Debian based) Linux work the way I like
+# Make Linux Great Again
+A bunch of things to change to make Ubuntu work the way I like
 
 Some things are easy to script but others seem to break things, so I keep this file around as a reference and add to it as I go.
 
