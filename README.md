@@ -78,6 +78,16 @@ You can set terminal titles with 'set-title whatever'
       PS1=${ORIG}${TITLE}
     }
 
+Add this to .bashrc whilst you are there. 
+
+bind 'set completion-ignore-case on'
+
+or run 
+
+echo "bind 'set completion-ignore-case on'" >> ~/.bashrc
+
+from the terminal. This will ignore case sensitivity on autocompltes, so "cd downloads" can autocomplte to "cd Downloads"
+
 ### xRDP popups
 
 xRDP sessions don't have the same permissions as local sessions, the polkit manager will ask for passwords to create colour profiles and change repositories
